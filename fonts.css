@@ -17,14 +17,14 @@
 @font-face {
 	font-family: "Gotham Pro";
 	src: url('./fonts/GothamPro-Bold.woff') format('woff');
-	font-weight: bold;
+	font-weight: 600;
 	font-style: normal;
 }
 
 @font-face {
-	font-family: "Gotham Pro Narrow";
+	font-family: "Gotham Pro";
 	src: url('./fonts/GothamProNarrow-Bold.woff') format('woff');
-	font-weight: bold;
+	font-weight: Narrow-Bold;
 	font-style: normal;
 }
 
