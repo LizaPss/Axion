@@ -67,6 +67,10 @@ body {
   margin-top: 50px;
 }
 
+.main {
+  overflow-x: hidden;
+}
+
 .skeiter {
   margin-top: 23px;
   background: url('img/1170/bigimg.svg');
@@ -111,22 +115,94 @@ h1 {
 }
 
 .sneakers__text {
+  font: 600 22px/21px "Gotham Pro", arial, helvetica, sans-serif;
   text-align: center;
   margin-top: 54px;
+  margin-bottom: 25px;
 }
 
 .sneakers-conteiner {
   display: grid;
-  grid-template: 1fr 1fr / repeat(4, 1fr);
+  grid-template: 1fr / repeat(4, 1fr);
+  width: 95vw;
 }
 
 .sneakers-1 {
-  margin-left: 30px;
-  margin-right: 80px;
+  margin-left: 20px;
+  margin-right: 75px;
 }
 
-.sneakers-2,
-.sneakers-3,
-.sneakers-4 {
-  margin-right: 80px;
+
+.model-1,
+.model-2,
+.model-3,
+.model-4 {
+  margin-bottom: 0px;
+  font: 400 12px/11px "Gotham Pro", arial, helvetica, sans-serif;
+}
+
+.price-1,
+.price-2,
+.price-3,
+.price-4 {
+  margin: 10px 0;
+  font: 600 14px/13px "Gotham Pro", arial, helvetica, sans-serif;
+}
+
+.stick {
+  display: inline-block;
+  width: 0px;
+  height: 100px;
+  opacity: 0.2;
+  border: 1px solid #000000;
+}
+
+.stick-1 {
+  position: relative;
+  top: -205px;
+  left: 250px;
+}
+
+.stick-2 {
+  position: relative;
+  top: -205px;
+  left: 510px;
+}
+
+.stick-3 {
+  position: relative;
+  top: -205px;
+  left: 780px;
+}
+
+.elips-1 {
+  display: flex;
+  top: -20px;
+  left: 150px;
+  position: relative;
+}
+
+.elips-1__2_big {
+  margin-top: -1px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #0E1211;
+  margin-right: 8px;
+}
+
+.elips__small {
+  width: 7px;
+  height: 7px;
+  background: #C4C4C4;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.elips-1__3 {
+  background: #B62E3C;
+}
+
+.elips-1__4 {
+  background: #FDB431;
 }
