@@ -73,7 +73,7 @@ body {
 
 .skeiter {
   margin-top: 23px;
-  background: url('img/1170/bigimg.svg');
+  background: no-repeat center url('img/1170/bigimg.svg');
   height: 280px;
 }
 
@@ -132,6 +132,12 @@ h1 {
   margin-right: 75px;
 }
 
+.sneakers-1_image,
+.sneakers-2_image,
+.sneakers-3_image,
+.sneakers-4_image {
+  margin-left: 5px;
+}
 
 .model-1,
 .model-2,
@@ -199,10 +205,105 @@ h1 {
   margin-right: 8px;
 }
 
-.elips-1__3 {
+.elips-1__3, .elips-2__3, .elips-4__3 {
   background: #B62E3C;
 }
 
-.elips-1__4 {
+.elips-1__4, .elips-2__4, .elips-3__4, .elips-4__4 {
   background: #FDB431;
+}
+
+.elips-2 {
+  display: flex;
+  top: -20px;
+  left: 160px;
+  position: relative;
+}
+
+.elips-2__2_big {
+  margin-top: -1px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #E29D69;
+  margin-right: 8px;
+}
+
+.elips-3 {
+  display: flex;
+  top: -20px;
+  left: 160px;
+  position: relative;
+}
+
+.elips-3__2_big {
+  margin-top: -1px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #762E31;
+  margin-right: 8px;
+}
+
+.elips-3__3 {
+  background: #41479B;
+}
+
+.elips-4 {
+  display: flex;
+  top: -20px;
+  left: 152px;
+  position: relative;
+}
+
+.elips-4__2_big {
+  margin-top: -1px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #257DA9;
+  margin-right: 8px;
+}
+
+.sneakers-4 {
+  padding-right: 95px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1169px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .header {
+    background: no-repeat 0 35px url('img/1024/axion-logo.svg');
+    height: 132px;
+  }
+
+  .logo__icon {
+    display: none;
+  }
+
+  .search {
+    width: 161px;
+    margin-left: 70px;
+    margin-right: 32px;
+  }
+
+  .menu-left {
+    margin-left: 65px;
+  }
+
+  .menu-right_item {
+    padding-right: 25px;
+  }
+
+  .lupa__icon {
+    left: 145px;
+  }
+
+  .skeiter {
+    margin: 0;
+    background: no-repeat center url('img/1024/bigimg.svg');
+  }
+
 }
