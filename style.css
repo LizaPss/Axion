@@ -25,7 +25,7 @@ body {
   color: #000;
   text-decoration: none;
   font: 600 12px/11px "Gotham Pro", arial, helvetica, sans-serif;
-  padding-right: 35px;
+  padding-right: 30px;
 }
 
 .menu-left_item:last-child {
@@ -33,10 +33,19 @@ body {
 
 }
 
+.menu-left {
+  left: 7px;
+  position: relative;
+}
+
+.menu-right {
+  margin-left: 155px;
+}
+
 .menu-right_item_active::after {
   content: url('img/1170/header/number1.svg');
   position: relative;
-  left: 3px;
+  left: 5px;
   top: 3px;
   padding-right: 0;
 }
@@ -47,18 +56,16 @@ body {
 
 .search {
   position: relative;
-  left: 25px;
+  left: 160px;
   top: 72px;
   width: 178px;
   border-top: 1px solid #000;
-  margin-left: 130px;
-  margin-right: 30px;
 }
 
 .lupa__icon {
   position: relative;
   top: -20px;
-  left: 165px;
+  left: 163px;
   height: 14px;
 }
 
@@ -72,7 +79,7 @@ body {
 }
 
 .skeiter {
-  margin-top: 23px;
+  margin-top: 24px;
   background: no-repeat center url('img/1170/bigimg.svg');
   height: 280px;
 }
@@ -81,13 +88,13 @@ body {
   position: relative;
   border-top: 1px solid #fff;
   width: 43px;
-  top: 198px;
+  top: 197px;
   left: 137px;
 }
 
 .arrow {
   position: relative;
-  top: 195px;
+  top: 194px;
   left: 175px;
   width: 4px;
   height: 4px;
@@ -99,7 +106,7 @@ body {
 
 h1 {
   margin: 0;
-  padding-top: 91px;
+  padding-top: 82px;
   padding-left: 60px;
   width: 195px;
   color: #fff;
@@ -107,7 +114,7 @@ h1 {
 }
 
 .shop {
-  margin-top: 9px;
+  margin-top: 17px;
   display: inline-block;
   padding-left: 60px;
   color: #fff;
@@ -117,8 +124,8 @@ h1 {
 .sneakers__text {
   font: 600 22px/21px "Gotham Pro", arial, helvetica, sans-serif;
   text-align: center;
-  margin-top: 54px;
-  margin-bottom: 25px;
+  margin-top: 51px;
+  margin-bottom: 20px;
 }
 
 .sneakers-conteiner {
@@ -128,8 +135,12 @@ h1 {
 }
 
 .sneakers-1 {
-  margin-left: 20px;
+  margin-left: 16px;
   margin-right: 75px;
+}
+
+.sneakers-4 {
+  padding-right: 100px;
 }
 
 .sneakers-1_image,
@@ -137,6 +148,12 @@ h1 {
 .sneakers-3_image,
 .sneakers-4_image {
   margin-left: 5px;
+  margin-bottom: 11px;
+}
+
+.info-sneakers {
+  position: relative;
+  right: 7px;
 }
 
 .model-1,
@@ -151,7 +168,7 @@ h1 {
 .price-2,
 .price-3,
 .price-4 {
-  margin: 10px 0;
+  margin: 8px 2px;
   font: 600 14px/13px "Gotham Pro", arial, helvetica, sans-serif;
 }
 
@@ -178,17 +195,17 @@ h1 {
 .stick-3 {
   position: relative;
   top: -205px;
-  left: 780px;
+  left: 768px;
 }
 
-.elips-1 {
+.elips-1, .elips-2, .elips-3, .elips-4 {
   display: flex;
-  top: -20px;
-  left: 150px;
+  top: -17px;
+  left: 155px;
   position: relative;
 }
 
-.elips-1__2_big {
+.elips-1__2_big, .elips-2__2_big, .elips-3__2_big, .elips-4__2_big {
   margin-top: -1px;
   width: 9px;
   height: 9px;
@@ -213,61 +230,24 @@ h1 {
   background: #FDB431;
 }
 
-.elips-2 {
-  display: flex;
-  top: -20px;
-  left: 160px;
-  position: relative;
-}
 
 .elips-2__2_big {
-  margin-top: -1px;
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
   background: #E29D69;
-  margin-right: 8px;
 }
 
-.elips-3 {
-  display: flex;
-  top: -20px;
-  left: 160px;
-  position: relative;
-}
 
 .elips-3__2_big {
-  margin-top: -1px;
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
   background: #762E31;
-  margin-right: 8px;
 }
 
 .elips-3__3 {
   background: #41479B;
 }
 
-.elips-4 {
-  display: flex;
-  top: -20px;
-  left: 152px;
-  position: relative;
-}
-
 .elips-4__2_big {
-  margin-top: -1px;
-  width: 9px;
-  height: 9px;
-  border-radius: 50%;
   background: #257DA9;
-  margin-right: 8px;
 }
 
-.sneakers-4 {
-  padding-right: 95px;
-}
 
 @media screen and (min-width: 1024px) and (max-width: 1169px) {
   .wrapper {
@@ -285,13 +265,20 @@ h1 {
 
   .search {
     width: 161px;
-    margin-left: 70px;
-    margin-right: 32px;
+    left: 185px;
+    margin-right: 190px;
   }
 
   .menu-left {
-    margin-left: 65px;
+    position: relative;
+    left: 65px;
   }
+
+  .menu-right {
+    margin-left: 0px;
+
+  }
+
 
   .menu-right_item {
     padding-right: 25px;
@@ -300,6 +287,9 @@ h1 {
   .lupa__icon {
     left: 145px;
   }
+
+
+
 
   .skeiter {
     margin: 0;
