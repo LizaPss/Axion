@@ -466,4 +466,295 @@ h1 {
     border-right: 3px solid #fff;
   }
 
+  .sneakers-conteiner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sneakers-3, .sneakers-4, .sneakers-1_image, .sneakers-2_image, .zaeb {
+    display: none;
+  }
+
+  .sneakers__text {
+    font: 600 30px/29px "Gotham Pro", arial, helvetica, sans-serif;
+    margin-top: 65px;
+  }
+
+  .sneakers-1 {
+    background: no-repeat top url('img/768/sneakers1.svg');
+    margin-left: 95px;
+    height: 480px;
+  }
+
+  .sneakers-2 {
+    background: no-repeat top url('img/768/sneakers2.svg');
+    margin-right: 45px;
+  }
+
+  .model-1, .model-2 {
+    font: 400 20px/19px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .price-1, .price-2 {
+    font: 600 25px/24px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .info-sneakers {
+    top: 240px;
+  }
+
+  .info-sneakers-1 {
+    right: 10px;
+  }
+
+  .info-sneakers-2 {
+    left: 3px;
+  }
+
+  .price {
+    margin: 17px 0 0 0;
+  }
+
+  .elips__small, .elips-1__2_big, .elips-2__2_big {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+  }
+
+  .elips-1 {
+    top: -20px;
+  }
+
+  .elips-2 {
+    top: -20px;
+    left: 167px;
+  }
+
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .menu, .search, .flag__icon {
+    display: none;
+  }
+
+  .header {
+    background: no-repeat 48px 24px url('img/375/axion-logo.svg');
+  }
+
+  .logo__icon {
+    display: none;
+  }
+
+  .burger-conteiner {
+    margin: 28px 47px 0 0;
+  }
+
+  .burger-menu__1, .burger-menu__2 {
+    width: 41px;
+    height: 6px;
+    background: #000000;
+  }
+
+  .burger-menu__1 {
+    margin-bottom: 5px;
+  }
+
+  .skeiter {
+    margin-top: 27px;
+    background: no-repeat url('img/376/bigimg.svg');
+  }
+
+  h1 {
+    padding: 55px 0 0 48px;
+    font: 600 20px/19px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .shop{
+    margin-top: 20px;
+    padding-left: 48px;
+    font: 600 12px/11px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .line-arrow {
+    width: 45px;
+    top: 147px;
+    left: 126px;
+    border: 1.2px solid #FFFFFF;
+  }
+
+  .arrow {
+    top: 142px;
+    left: 164px;
+    width: 6px;
+    height: 6px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+  }
+
+  .sneakers-conteiner {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sneakers-2, .sneakers-3, .sneakers-4, .sneakers-1_image, .sneakers-2_image, .zaeb {
+    display: none;
+  }
+
+  .sneakers__text {
+    margin-top: 32px;
+    font: 600 20px/19px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .sneakers-1 {
+    background: no-repeat 20px -25px url('img/375/sneakers.svg');
+    height: 210px;
+    margin: 0;
+  }
+
+  .info-sneakers-1 {
+    top: 147px;
+    right: 25px;
+  }
+
+  .model-1{
+    font: 400 15px/14px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .price-1{
+    font: 600 20px/19px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .price {
+    margin: 6px 0 0 0;
+  }
+
+  .elips__small, .elips-1__2_big {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+  }
+
+  .elips-1 {
+    top: -15px;
+    left: 191px;
+  }
+
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .menu, .search, .flag__icon {
+    display: none;
+  }
+
+  .header {
+    background: no-repeat 48px 24px url('img/375/axion-logo.svg');
+  }
+
+  .logo__icon {
+    display: none;
+  }
+
+  .burger-conteiner {
+    margin: 28px 47px 0 0;
+  }
+
+  .burger-menu__1, .burger-menu__2 {
+    width: 41px;
+    height: 6px;
+    background: #000000;
+  }
+
+  .burger-menu__1 {
+    margin-bottom: 5px;
+  }
+
+  .skeiter {
+    margin-top: 27px;
+    background: no-repeat url('img/375/bigimg.svg');
+    height: 195px;
+  }
+
+  h1 {
+    padding: 55px 0 0 48px;
+    font: 600 20px/19px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .shop{
+    margin-top: 20px;
+    padding-left: 48px;
+    font: 600 12px/11px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .line-arrow {
+    width: 45px;
+    top: 147px;
+    left: 126px;
+    border: 1.2px solid #FFFFFF;
+  }
+
+  .arrow {
+    top: 142px;
+    left: 164px;
+    width: 6px;
+    height: 6px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+  }
+
+  .sneakers-conteiner {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sneakers-2, .sneakers-3, .sneakers-4, .sneakers-1_image, .sneakers-2_image, .zaeb {
+    display: none;
+  }
+
+  .sneakers__text {
+    margin-top: 32px;
+    font: 600 20px/19px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .sneakers-1 {
+    background: no-repeat 20px -25px url('img/375/sneakers.svg');
+    height: 210px;
+    margin: 0;
+  }
+
+  .info-sneakers-1 {
+    top: 147px;
+    right: 25px;
+  }
+
+  .model-1{
+    font: 400 15px/14px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .price-1{
+    font: 600 20px/19px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .price {
+    margin: 6px 0 0 0;
+  }
+
+  .elips__small, .elips-1__2_big {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+  }
+
+  .elips-1 {
+    top: -15px;
+    left: 191px;
+  }
+
 }
