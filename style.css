@@ -271,7 +271,7 @@ h1 {
 }
 
 .video-info {
-  padding: 147px 0 0 719px;
+  padding: 153px 0 0 719px;
 }
 
 .video__text {
@@ -290,23 +290,28 @@ h1 {
 }
 
 .video__text_middle {
-  margin-top: 22px;
+  margin-top: 2px;
   font: 600 12px/11px "Gotham Pro", arial, helvetica, sans-serif;
 }
 
 .video__line-arrow {
-  top: 334px;
-  left: 813px;
+  top: 13px;
+  left: 93px;
 }
 
 .video__arrow {
-  top: 331px;
-  left: 851px;
+  top: 10px;
+  left: 131px;
 }
 
 @media screen and (min-width: 1920px) {
   .burger-conteiner {
     display: none;
+  }
+
+  .menu-left_item, .menu-right_item {
+    font-size: 16px;
+    padding-right: 70px;
   }
 
   .skeiter {
@@ -315,21 +320,91 @@ h1 {
   }
 
   h1 {
+    font-size: 33px;
     padding-top: 140px;
   }
 
+  .shop {
+    font-size: 15px;
+  }
+
   .line-arrow {
+    border-top-width: 2px;
+    border-right-width: 2px;
     top: 255px;
+    left: 170px;
   }
 
   .arrow {
-    top: 252px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    top: 251px;
+    left: 208px;
   }
+
+  .stick-1 {
+    left: 330px;
+  }
+
+  .stick-2 {
+    right: 60px;
+  }
+
+  .stick-3 {
+    right: 440px;
+  }
+
+  .video {
+    background-position-x: 200px;
+  }
+
+  .video::after {
+    left: 490px;
+    top: -185px;
+  }
+
+  .video-info {
+    padding-left: 1020px;
+  }
+
+  .video__text_hight-1, .video__text_hight-2 {
+    font: 600 32px/37px "Gotham Pro", arial, helvetica, sans-serif;
+    width: 400px;
+  }
+
+  .video__text_small {
+    font: 400 20px/21px "Gotham Pro", arial, helvetica, sans-serif;
+    width: 380px;
+  }
+
+  .video__text_middle {
+    font: 600 16px/15px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .video__line-arrow {
+    top: 16px;
+    left: 125px;
+  }
+
+  .video__arrow {
+    top: 12px;
+    left: 163px;
+  }
+
 }
 
-@media screen and (min-width: 1360px) and (max-width: 1919px) {
+@media screen and (min-width: 1600px) and (max-width: 1919px) {
   .burger-conteiner {
     display: none;
+  }
+
+  .menu-left_item, .menu-right_item {
+    font-size: 15px;
+    padding-right: 40px;
+  }
+
+  .menu-right {
+    margin-left: 125px;
   }
 
   .skeiter {
@@ -342,14 +417,85 @@ h1 {
   }
 
   .line-arrow {
-    top: 245px;
+    top: 246px;
   }
 
   .arrow {
-    top: 242px;
+    top: 243px;
   }
+
+  .stick-1 {
+    left: 300px;
+  }
+
+  .stick-2 {
+    right: 35px;
+  }
+
+  .stick-3 {
+    right: 350px;
+  }
+
+  .video {
+    background-position-x: 100px;
+  }
+
+  .video::after {
+    left: 393px;
+  }
+
+  .video-info {
+    padding-left: 890px;
+  }
+
+  .video__text_hight-1, .video__text_hight-2 {
+    font: 600 25px/27px "Gotham Pro", arial, helvetica, sans-serif;
+    width: 300px;
+  }
+
+  .video__text_small {
+    width: 60%;
+    font: 400 16px/17px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .video__text_middle {
+    font-size: 13px;
+  }
+
+  .video__line-arrow {
+    top: 13px;
+    left: 105px;
+  }
+
+  .video__arrow {
+    top: 10px;
+    left: 143px;
+  }
+
 }
 
+@media screen and (min-width: 1360px) and (max-width: 1600px) {
+  .skeiter {
+    background: no-repeat center url('img/1920/bigimg.svg');
+  }
+
+  .stick-1 {
+    left: 270px;
+  }
+
+  .stick-2 {
+    right: 20px;
+  }
+
+  .stick-3 {
+    right: 280px;
+  }
+
+  .video-info {
+    padding: 153px 0 0 789px;
+  }
+
+}
 
 @media screen and (min-width: 1170px) {
   .burger-conteiner {
