@@ -304,6 +304,122 @@ h1 {
   left: 131px;
 }
 
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  margin: 75px 0 45px 0;
+  text-align: center;
+  font: 600 22px/21px "Gotham Pro", arial, helvetica, sans-serif;
+}
+
+.story-1 {
+  background: no-repeat top left url('img/1170/story-1.png');
+}
+
+.story-2 {
+  background: no-repeat top center url('img/1170/story-2.png');
+}
+
+.story-3 {
+  background: no-repeat top right url('img/1170/story-3.png');
+}
+
+.story__info {
+  margin-top: 180px;
+}
+
+.story-3__info {
+  margin-left: 50px;
+}
+
+.story__title {
+  margin-bottom: 9px;
+  font: 600 18px/17px "Gotham Pro", arial, helvetica, sans-serif;
+}
+
+.story__text {
+  font: 400 14px/17px "Gotham Pro", arial, helvetica, sans-serif;
+}
+
+.story-1__text {
+  width: 300px;
+  margin: 0 61px 4px 0;
+}
+
+.story-2__text {
+  width: 300px;
+  margin: 0 10px 4px 0;
+}
+
+.story-3__text {
+  width: 295px;
+  margin: 0 13px 3px 0;
+}
+
+.story__item, .story__date {
+  font: 600 10px/11px "Gotham Pro", arial, helvetica, sans-serif;
+}
+
+.story-1__line-arrow {
+  border-top: 2px solid #000;
+  top: 18px;
+  left: 93px;
+  width: 27px;
+}
+
+.story-2__line-arrow {
+  border-top: 2px solid #000;
+  top: 18px;
+  left: 93px;
+  width: 27px;
+}
+
+
+.story-1__arrow {
+  border-right: 2px solid #000;
+  border-top: 2px solid #000;
+  top: 14px;
+  left: 115px;
+}
+
+.story-2__arrow {
+  border-right: 2px solid #000;
+  border-top: 2px solid #000;
+  top: 14px;
+  left: 115px;
+}
+
+.story-3__line-arrow {
+  border-top: 2px solid #000;
+  top: 19px;
+  left: 93px;
+  width: 27px;
+}
+.story-3__arrow {
+  border-right: 2px solid #000;
+  border-top: 2px solid #000;
+  top: 15px;
+  left: 115px;
+}
+
+
+.story__date {
+  opacity: 0.3;
+}
+
+.story-1__date {
+  margin-left: 160px;
+}
+
+.story-2__date, .story-3__date {
+  position: relative;
+  left: 160px;
+}
+
+
 @media screen and (min-width: 1920px) {
   .burger-conteiner {
     display: none;
