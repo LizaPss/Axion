@@ -1,0 +1,1295 @@
+body {
+  margin: 0 auto;
+}
+
+.wrapper {
+  margin: auto;
+  width: 88%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo__icon {
+  margin: 32px 0px 0 0px;
+}
+
+.menu {
+  margin-top: 48px;
+}
+
+.menu-left_item,
+.menu-right_item {
+  color: #000;
+  text-decoration: none;
+  font: 600 12px/11px "Gotham Pro", arial, helvetica, sans-serif;
+  padding-right: 30px;
+}
+
+.menu-left_item:last-child {
+  padding-right: 0;
+
+}
+
+.menu-left {
+  left: 7px;
+  position: relative;
+}
+
+.menu-right {
+  margin-left: 155px;
+}
+
+.menu-right_item_active::after {
+  content: url('img/1170/header/number1.svg');
+  position: relative;
+  left: 5px;
+  top: 3px;
+  padding-right: 0;
+}
+
+.menu-right_item:last-child {
+  padding-right: 0;
+}
+
+.search {
+  position: relative;
+  left: 160px;
+  top: 72px;
+  width: 178px;
+  border-top: 1px solid #000;
+}
+
+.lupa__icon {
+  position: relative;
+  top: -20px;
+  left: 163px;
+  height: 14px;
+}
+
+.flag__icon {
+  height: 20px;
+  margin-top: 50px;
+}
+
+.main {
+  overflow-x: hidden;
+}
+
+.skeiter {
+  margin-top: 24px;
+  background: no-repeat center url('img/1170/bigimg.svg');
+  height: 280px;
+}
+
+.line-arrow {
+  position: relative;
+  border-top: 1px solid #fff;
+  width: 43px;
+  top: 197px;
+  left: 137px;
+}
+
+.arrow {
+  position: relative;
+  top: 194px;
+  left: 175px;
+  width: 4px;
+  height: 4px;
+  border-top: 1px solid #fff;
+  border-right: 1px solid #fff;
+  border-radius: 1px 1px;
+  transform: rotate(45deg);
+}
+
+h1 {
+  margin: 0;
+  padding-top: 82px;
+  padding-left: 60px;
+  width: 195px;
+  color: #fff;
+  font: 600 30px/29px "Gotham Pro", arial, helvetica, sans-serif;
+}
+
+.shop {
+  margin-top: 17px;
+  display: inline-block;
+  padding-left: 60px;
+  color: #fff;
+  font: 600 12px/11px "Gotham Pro", arial, helvetica, sans-serif;
+}
+
+.sneakers__text {
+  font: 600 22px/21px "Gotham Pro", arial, helvetica, sans-serif;
+  text-align: center;
+  margin-top: 51px;
+  margin-bottom: 20px;
+}
+
+.sneakers-conteiner {
+  display: grid;
+  grid-template: 1fr / repeat(4, 1fr);
+  width: 95vw;
+}
+
+.sneakers-1 {
+  margin-left: 16px;
+  margin-right: 75px;
+}
+
+.sneakers-4 {
+  padding-right: 100px;
+}
+
+.sneakers-1_image,
+.sneakers-2_image,
+.sneakers-3_image,
+.sneakers-4_image {
+  margin-left: 5px;
+  margin-bottom: 11px;
+}
+
+.info-sneakers {
+  position: relative;
+  right: 7px;
+}
+
+.model-1,
+.model-2,
+.model-3,
+.model-4 {
+  margin-bottom: 0px;
+  font: 400 12px/11px "Gotham Pro", arial, helvetica, sans-serif;
+}
+
+.price-1,
+.price-2,
+.price-3,
+.price-4 {
+  margin: 8px 2px;
+  font: 600 14px/13px "Gotham Pro", arial, helvetica, sans-serif;
+}
+
+.zaeb {
+  display: flex;
+  justify-content: space-between;
+  height: 0;
+}
+
+.stick {
+  display: inline-block;
+  width: 0px;
+  height: 100px;
+  opacity: 0.2;
+  border: 1px solid #000000;
+}
+
+.stick-1 {
+  position: relative;
+  top: -205px;
+  left: 248px;
+}
+
+.stick-2 {
+  position: relative;
+  top: -205px;
+}
+
+.stick-3 {
+  position: relative;
+  top: -205px;
+  right: 247px;
+}
+
+.elips-1, .elips-2, .elips-3, .elips-4 {
+  display: flex;
+  top: -17px;
+  left: 155px;
+  position: relative;
+}
+
+.elips-1__2_big, .elips-2__2_big, .elips-3__2_big, .elips-4__2_big {
+  margin-top: -1px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #0E1211;
+  margin-right: 8px;
+}
+
+.elips__small {
+  width: 7px;
+  height: 7px;
+  background: #C4C4C4;
+  border-radius: 50%;
+  margin-right: 8px;
+}
+
+.elips-1__3, .elips-2__3, .elips-4__3 {
+  background: #B62E3C;
+}
+
+.elips-1__4, .elips-2__4, .elips-3__4, .elips-4__4 {
+  background: #FDB431;
+}
+
+
+.elips-2__2_big {
+  background: #E29D69;
+}
+
+.elips-3__2_big {
+  background: #762E31;
+}
+
+.elips-3__3 {
+  background: #41479B;
+}
+
+.elips-4__2_big {
+  background: #257DA9;
+}
+
+.video-conteiner {
+  margin-top: 37px;
+  background: #000000;
+  height: 494px;
+}
+
+.video {
+  background: no-repeat 33px 67px url('img/1170/video.png');
+  height: 435px;
+}
+
+.video::after {
+  content: url('img/1170/pause.svg');
+  position: relative;
+  left: 326px;
+  top: -132px;
+}
+
+.video-info {
+  padding: 153px 0 0 719px;
+}
+
+.video__text {
+  color: #fff;
+  width: 270px;
+}
+
+.video__text_hight-1, .video__text_hight-2 {
+  font: 600 22px/27px "Gotham Pro", arial, helvetica, sans-serif;
+  color: #fff;
+  margin: 0;
+}
+
+.video__text_small {
+  font: 400 14px/17px "Gotham Pro", arial, helvetica, sans-serif;
+}
+
+.video__text_middle {
+  margin-top: 2px;
+  font: 600 12px/11px "Gotham Pro", arial, helvetica, sans-serif;
+}
+
+.video__line-arrow {
+  top: 13px;
+  left: 93px;
+}
+
+.video__arrow {
+  top: 10px;
+  left: 131px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  margin: 75px 0 45px 0;
+  text-align: center;
+  font: 600 22px/21px "Gotham Pro", arial, helvetica, sans-serif;
+}
+
+.story-1 {
+  background: no-repeat top left url('img/1170/story-1.png');
+}
+
+.story-2 {
+  background: no-repeat top center url('img/1170/story-2.png');
+}
+
+.story-3 {
+  background: no-repeat top right url('img/1170/story-3.png');
+}
+
+.story__info {
+  margin-top: 180px;
+}
+
+.story-3__info {
+  margin-left: 50px;
+}
+
+.story__title {
+  margin-bottom: 9px;
+  font: 600 18px/17px "Gotham Pro", arial, helvetica, sans-serif;
+}
+
+.story__text {
+  font: 400 14px/17px "Gotham Pro", arial, helvetica, sans-serif;
+}
+
+.story-1__text {
+  width: 300px;
+  margin: 0 61px 4px 0;
+}
+
+.story-2__text {
+  width: 300px;
+  margin: 0 10px 4px 0;
+}
+
+.story-3__text {
+  width: 295px;
+  margin: 0 13px 3px 0;
+}
+
+.story__item, .story__date {
+  font: 600 10px/11px "Gotham Pro", arial, helvetica, sans-serif;
+}
+
+.story-1__line-arrow {
+  border-top: 2px solid #000;
+  top: 18px;
+  left: 93px;
+  width: 27px;
+}
+
+.story-2__line-arrow {
+  border-top: 2px solid #000;
+  top: 18px;
+  left: 93px;
+  width: 27px;
+}
+
+
+.story-1__arrow {
+  border-right: 2px solid #000;
+  border-top: 2px solid #000;
+  top: 14px;
+  left: 115px;
+}
+
+.story-2__arrow {
+  border-right: 2px solid #000;
+  border-top: 2px solid #000;
+  top: 14px;
+  left: 115px;
+}
+
+.story-3__line-arrow {
+  border-top: 2px solid #000;
+  top: 19px;
+  left: 93px;
+  width: 27px;
+}
+.story-3__arrow {
+  border-right: 2px solid #000;
+  border-top: 2px solid #000;
+  top: 15px;
+  left: 115px;
+}
+
+
+.story__date {
+  opacity: 0.3;
+}
+
+.story-1__date {
+  margin-left: 160px;
+}
+
+.story-2__date, .story-3__date {
+  position: relative;
+  left: 160px;
+}
+
+
+@media screen and (min-width: 1920px) {
+  .burger-conteiner {
+    display: none;
+  }
+
+  .menu-left_item, .menu-right_item {
+    font-size: 16px;
+    padding-right: 70px;
+  }
+
+  .skeiter {
+    background: no-repeat center url('img/1920/bigimg.svg');
+    height: 380px;
+  }
+
+  h1 {
+    font-size: 33px;
+    padding-top: 140px;
+  }
+
+  .shop {
+    font-size: 15px;
+  }
+
+  .line-arrow {
+    border-top-width: 2px;
+    border-right-width: 2px;
+    top: 255px;
+    left: 170px;
+  }
+
+  .arrow {
+    border-top-width: 2px;
+    border-right-width: 2px;
+    top: 251px;
+    left: 208px;
+  }
+
+  .stick-1 {
+    left: 330px;
+  }
+
+  .stick-2 {
+    right: 60px;
+  }
+
+  .stick-3 {
+    right: 440px;
+  }
+
+  .video {
+    background-position-x: 200px;
+  }
+
+  .video::after {
+    left: 490px;
+    top: -185px;
+  }
+
+  .video-info {
+    padding-left: 1020px;
+  }
+
+  .video__text_hight-1, .video__text_hight-2 {
+    font: 600 32px/37px "Gotham Pro", arial, helvetica, sans-serif;
+    width: 400px;
+  }
+
+  .video__text_small {
+    font: 400 20px/21px "Gotham Pro", arial, helvetica, sans-serif;
+    width: 380px;
+  }
+
+  .video__text_middle {
+    font: 600 16px/15px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .video__line-arrow {
+    top: 16px;
+    left: 125px;
+  }
+
+  .video__arrow {
+    top: 12px;
+    left: 163px;
+  }
+
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1919px) {
+  .burger-conteiner {
+    display: none;
+  }
+
+  .menu-left_item, .menu-right_item {
+    font-size: 15px;
+    padding-right: 40px;
+  }
+
+  .menu-right {
+    margin-left: 125px;
+  }
+
+  .skeiter {
+    background: no-repeat center url('img/1920/bigimg.svg');
+    height: 350px;
+  }
+
+  h1 {
+    padding-top: 130px;
+  }
+
+  .line-arrow {
+    top: 246px;
+  }
+
+  .arrow {
+    top: 243px;
+  }
+
+  .stick-1 {
+    left: 300px;
+  }
+
+  .stick-2 {
+    right: 35px;
+  }
+
+  .stick-3 {
+    right: 350px;
+  }
+
+  .video {
+    background-position-x: 100px;
+  }
+
+  .video::after {
+    left: 393px;
+  }
+
+  .video-info {
+    padding-left: 890px;
+  }
+
+  .video__text_hight-1, .video__text_hight-2 {
+    font: 600 25px/27px "Gotham Pro", arial, helvetica, sans-serif;
+    width: 300px;
+  }
+
+  .video__text_small {
+    width: 60%;
+    font: 400 16px/17px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .video__text_middle {
+    font-size: 13px;
+  }
+
+  .video__line-arrow {
+    top: 13px;
+    left: 105px;
+  }
+
+  .video__arrow {
+    top: 10px;
+    left: 143px;
+  }
+
+}
+
+@media screen and (min-width: 1360px) and (max-width: 1600px) {
+  .skeiter {
+    background: no-repeat center url('img/1920/bigimg.svg');
+  }
+
+  .stick-1 {
+    left: 270px;
+  }
+
+  .stick-2 {
+    right: 20px;
+  }
+
+  .stick-3 {
+    right: 280px;
+  }
+
+  .video-info {
+    padding: 153px 0 0 789px;
+  }
+
+}
+
+@media screen and (min-width: 1170px) {
+  .burger-conteiner {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1169px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .header {
+    background: no-repeat 0 35px url('img/1024/axion-logo.svg');
+    height: 132px;
+  }
+
+  .logo__icon {
+    display: none;
+  }
+
+  .search {
+    width: 161px;
+    left: 185px;
+    margin-right: 190px;
+  }
+
+  .menu-left {
+    position: relative;
+    left: 65px;
+  }
+
+  .menu-right {
+    margin-left: 0px;
+
+  }
+
+  .menu-right_item {
+    padding-right: 25px;
+  }
+
+  .lupa__icon {
+    left: 145px;
+  }
+
+  .skeiter {
+    margin: 0;
+    background: no-repeat center -5px url('img/1024/bigimg.svg');
+  }
+
+  h1 {
+    padding-top: 66px;
+    padding-left: 50px;
+  }
+
+  .shop {
+    margin-top: 10px;
+    padding-left: 50px;
+  }
+
+  .line-arrow {
+    top: 176px;
+    left: 133px;
+  }
+
+  .arrow {
+    top: 173px;
+    left: 171px;
+  }
+
+  .sneakers-conteiner {
+    height: 250px;
+  }
+
+  .sneakers__text {
+    margin-top: 35px;
+  }
+
+  .sneakers-1_image, .sneakers-2_image, .sneakers-3_image, .sneakers-4_image {
+    display: none;
+  }
+
+  .sneakers-1 {
+    background: no-repeat url('img/1024/sneakers1.svg');
+    margin-right: 0;
+  }
+
+  .info-sneakers {
+    top: 187px;
+  }
+
+  .sneakers-2 {
+    background: no-repeat 15px top url('img/1024/sneakers2.svg');
+  }
+
+  .sneakers-3 {
+    background: no-repeat 10px top url('img/1024/sneakers4.svg');
+  }
+
+  .sneakers-4 {
+    padding-right: 0;
+    background: no-repeat 10px top url('img/1024/sneakers3.svg');
+  }
+
+  .model-2, .model-3, .model-4 {
+    margin-left: 10px;
+  }
+
+  .price-1 {
+    margin: 11px 2px 8px 0;
+  }
+
+  .price-2, .price-3, .price-4 {
+    margin: 10px 2px 8px 8px;
+  }
+
+  .elips-2, .elips-3, .elips-4 {
+    left: 145px;
+  }
+
+  .elips-1 {
+    left: 132px;
+  }
+
+  .stick {
+    top: -210px;
+  }
+
+  .stick-1 {
+    left: 220px;
+  }
+
+  .stick-3 {
+    right: 220px;
+  }
+
+  .video-conteiner {
+    margin-top: 62px;
+    height: 441px;
+  }
+
+  .video {
+    background: no-repeat 26px 60px url(img/1024/video.png);
+  }
+
+  .video::after {
+    content: url(img/1024/pause.svg);
+    left: 290px;
+    top: -120px;
+  }
+
+  .video-info {
+    padding: 132px 0 0 643px;
+  }
+
+  .video__text_small {
+    margin-bottom: 0;
+    width: 250px;
+    font: 400 13px/16px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .video__text_middle {
+    margin-top: 7px;
+  }
+
+  .video__line-arrow {
+    top: 20px;
+    left: 100px;
+  }
+
+  .video__arrow {
+    top: 17px;
+    left: 138px;
+  }
+
+  .burger-conteiner {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .search {
+    display: none;
+  }
+
+  .flag__icon {
+    display: none;
+  }
+
+  .header {
+    background: no-repeat 43px 42px url('img/768/text-logo.svg');
+    height: 80px;
+  }
+
+  .logo__icon {
+    display: none;
+  }
+
+  .burger-conteiner {
+    margin: 46px 44px 0 0;
+  }
+
+  .burger-menu__1, .burger-menu__2 {
+    width: 61px;
+    height: 9px;
+    background: #000000;
+  }
+
+  .burger-menu__1 {
+    margin-bottom: 8px;
+  }
+
+  .skeiter {
+    margin-top: 33px;
+    background: no-repeat url('img/768/bigimg.svg');
+    height: 415px;
+  }
+
+  h1 {
+    padding: 107px 0 0 44px;
+
+    font: 600 50px/48px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .shop{
+    margin-top: 48px;
+    padding-left: 44px;
+    font: 600 20px/19px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .line-arrow {
+    width: 66px;
+    top: 321px;
+    left: 173px;
+    border: 2px solid #FFFFFF;
+  }
+
+  .arrow {
+    top: 314px;
+    left: 233px;
+    width: 7px;
+    height: 7px;
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+  }
+
+  .sneakers-conteiner {
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .sneakers-3, .sneakers-4, .sneakers-1_image, .sneakers-2_image, .zaeb {
+    display: none;
+  }
+
+  .sneakers__text {
+    font: 600 30px/29px "Gotham Pro", arial, helvetica, sans-serif;
+    margin-top: 65px;
+  }
+
+  .sneakers-1 {
+    background: no-repeat top url('img/768/sneakers1.svg');
+    margin-left: 95px;
+    height: 480px;
+  }
+
+  .sneakers-2 {
+    background: no-repeat top url('img/768/sneakers2.svg');
+    margin-right: 45px;
+  }
+
+  .model-1, .model-2 {
+    font: 400 20px/19px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .price-1, .price-2 {
+    font: 600 25px/24px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .info-sneakers {
+    top: 240px;
+  }
+
+  .info-sneakers-1 {
+    right: 10px;
+  }
+
+  .info-sneakers-2 {
+    left: 3px;
+  }
+
+  .price {
+    margin: 17px 0 0 0;
+  }
+
+  .elips__small, .elips-1__2_big, .elips-2__2_big {
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+  }
+
+  .elips-1 {
+    top: -20px;
+  }
+
+  .elips-2 {
+    top: -20px;
+    left: 167px;
+  }
+
+  .video-conteiner {
+    position: relative;
+    transform: rotate(2.6deg);
+    height: 1575px;
+    width: 110%;
+    right: 40px;
+  }
+
+  .video {
+    transform: rotate(-2.6deg);
+    background: no-repeat center 225px url(img/768/video.png);
+    height: 100%;
+  }
+
+  .video::after {
+    display: none;
+  }
+
+  .video-info {
+    padding: 67px 0 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .video__text_hight-1, .video__text_hight-2 {
+    font: 600 30px/37px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .video__text_hight-1 {
+    position: relative;
+    padding: 5p;
+    right: 130px;
+  }
+
+  .video__text_hight-2  {
+    margin-top: -37px;
+    margin-left: 275px;
+    width: 400px;
+  }
+
+  .video__text_small {
+    text-align: center;
+    width: 700px;
+    margin-top: 15px;
+    font: 400 20px/25px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .video__line-arrow, .video__arrow, .video__text_middle {
+    display: none;
+  }
+
+}
+
+@media screen and (min-width: 376px) and (max-width: 767px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .menu, .search, .flag__icon {
+    display: none;
+  }
+
+  .header {
+    height: 70px;
+    background: no-repeat 48px 24px url('img/375/axion-logo.svg');
+  }
+
+  .logo__icon {
+    display: none;
+  }
+
+  .burger-conteiner {
+    margin: 28px 47px 0 0;
+  }
+
+  .burger-menu__1, .burger-menu__2 {
+    width: 41px;
+    height: 6px;
+    background: #000000;
+  }
+
+  .burger-menu__1 {
+    margin-bottom: 5px;
+  }
+
+  .skeiter {
+    margin-top: 0px;
+    background: no-repeat url('img/376/bigimg376.svg');
+  }
+
+  h1 {
+    padding: 55px 0 0 48px;
+    font: 600 20px/19px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .shop{
+    margin-top: 20px;
+    padding-left: 48px;
+    font: 600 12px/11px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .line-arrow {
+    width: 45px;
+    top: 147px;
+    left: 126px;
+    border: 1.2px solid #FFFFFF;
+  }
+
+  .arrow {
+    top: 142px;
+    left: 164px;
+    width: 6px;
+    height: 6px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+  }
+
+  .sneakers-conteiner {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sneakers-2, .sneakers-3, .sneakers-4, .sneakers-1_image, .sneakers-2_image, .zaeb {
+    display: none;
+  }
+
+  .sneakers__text {
+    margin-top: 32px;
+    font: 600 20px/19px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .sneakers-1 {
+    background: no-repeat 20px -25px url('img/375/sneakers.svg');
+    height: 210px;
+    margin: 0;
+  }
+
+  .info-sneakers-1 {
+    top: 147px;
+    right: 25px;
+  }
+
+  .model-1{
+    font: 400 15px/14px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .price-1{
+    font: 600 20px/19px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .price {
+    margin: 6px 0 0 0;
+  }
+
+  .elips__small, .elips-1__2_big {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+  }
+
+  .elips-1 {
+    top: -15px;
+    left: 191px;
+  }
+
+  .video-conteiner {
+    position: relative;
+    transform: rotate(2.6deg);
+    width: 110%;
+    right: 15px;
+  }
+
+  .video {
+    transform: rotate(-2.6deg);
+    background: no-repeat center 225px url(img/376/video.png);
+    height: 100%;
+  }
+
+  .video::after {
+    display: none;
+  }
+
+  .video-info {
+    padding: 67px 0 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .video__text_hight-1, .video__text_hight-2 {
+    text-align: center;
+    font: 600 20px/25px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .video__text_small {
+    text-align: center;
+    width: 350px;
+    margin-top: 15px;
+    font: 400 14px/17px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .video__line-arrow, .video__arrow, .video__text_middle {
+    display: none;
+  }
+
+}
+
+@media (max-width: 375px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .menu, .search, .flag__icon {
+    display: none;
+  }
+
+  .header {
+    background: no-repeat 48px 24px url('img/375/axion-logo.svg');
+  }
+
+  .logo__icon {
+    display: none;
+  }
+
+  .burger-conteiner {
+    margin: 28px 47px 0 0;
+  }
+
+  .burger-menu__1, .burger-menu__2 {
+    width: 41px;
+    height: 6px;
+    background: #000000;
+  }
+
+  .burger-menu__1 {
+    margin-bottom: 5px;
+  }
+
+  .skeiter {
+    margin-top: 27px;
+    background: no-repeat url('img/375/bigimg.svg');
+    height: 195px;
+  }
+
+  h1 {
+    padding: 55px 0 0 48px;
+    font: 600 20px/19px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .shop{
+    margin-top: 20px;
+    padding-left: 48px;
+    font: 600 12px/11px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .line-arrow {
+    width: 45px;
+    top: 147px;
+    left: 126px;
+    border: 1.2px solid #FFFFFF;
+  }
+
+  .arrow {
+    top: 142px;
+    left: 164px;
+    width: 6px;
+    height: 6px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+  }
+
+  .sneakers-conteiner {
+    display: flex;
+    justify-content: center;
+  }
+
+  .sneakers-2, .sneakers-3, .sneakers-4, .sneakers-1_image, .sneakers-2_image, .zaeb {
+    display: none;
+  }
+
+  .sneakers__text {
+    margin-top: 32px;
+    font: 600 20px/19px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .sneakers-1 {
+    background: no-repeat 20px -25px url('img/375/sneakers.svg');
+    height: 210px;
+    margin: 0;
+  }
+
+  .info-sneakers-1 {
+    top: 147px;
+    right: 25px;
+  }
+
+  .model-1{
+    font: 400 15px/14px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .price-1{
+    font: 600 20px/19px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .price {
+    margin: 6px 0 0 0;
+  }
+
+  .elips__small, .elips-1__2_big {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+  }
+
+  .elips-1 {
+    top: -15px;
+    left: 191px;
+  }
+
+  .video-conteiner {
+    margin-top: 74px;
+    position: relative;
+    transform: rotate(2.6deg);
+    width: 110%;
+    right: 15px;
+  }
+
+  .video {
+    transform: rotate(-2.6deg);
+    background: no-repeat center 213px url(img/375/video.png);
+    height: 100%;
+  }
+
+  .video::after {
+    display: none;
+  }
+
+  .video-info {
+    padding: 32px 10px 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .video__text_hight-1, .video__text_hight-2 {
+    text-align: center;
+    font: 600 20px/25px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .video__text_small {
+    text-align: center;
+    width: 280px;
+    margin-top: 17px;
+    font: 400 14px/17px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .video__line-arrow, .video__arrow, .video__text_middle {
+    display: none;
+  }
+
+}
