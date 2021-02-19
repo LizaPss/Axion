@@ -419,10 +419,18 @@ h2 {
 }
 
 h3 {
+  opacity: 0.3;
   text-align: right;
-    margin: 70px 0 0 0;
-  font: 600 18px/19px "Gotham Pro", arial, helvetica, sans-serif;
+  margin: 70px 0 13px 0;
+  font: 600 18px/17px "Gotham Pro", arial, helvetica, sans-serif;
 }
+
+.pictures__first, .pictures__second, .pictures__third, .pictures__fourth, .pictures__fifth, .pictures__sixth, .pictures__seventh  {
+  width: 12.5vw;
+}
+
+
+
 
 /* Слайдер */
 .slick-slider{
@@ -435,14 +443,7 @@ h3 {
 .slick-slider.slick-dotted{
 }
 /* Ограничивающая оболочка */
-.slick-list {
-  overflow: hidden;
-}
-/* Лента слайдов */
-.slick-track{
-  display: flex;
-  justify-content: space-between;
-}
+
 /* Слайд */
 .slick-slide {
 }
@@ -467,15 +468,22 @@ h3 {
 /* Стрелка вправо */
 .slick-arrow.slick-next{
 }
-/* Стрелка не активная */
-.slick-arrow.slick-disabled{
-}
 
 
 /* Конкретный Слайдер */
 .sneakers-conteiner {
   position: relative;
   padding: 0 20px;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .sneakers-conteiner .slick-arrow {
@@ -517,18 +525,16 @@ h3 {
   font-size: 0;
   width: 10px;
   height: 15px;
-  background: #000;
+  background: #c4c4c4;
   border-radius: 50%;
 }
 
-.sneakers-conteiner .slick-dots li .slick-active button {
-
-  background: #fff;
-  border: 1px solid #000;
+.sneakers-conteiner .slick-arrow .slick-next .slick-disabled {
+  opacity: 0.2;
 }
 
-
 @media screen and (min-width: 1920px) {
+
   .burger-conteiner {
     display: none;
   }
@@ -584,11 +590,11 @@ h3 {
 
   .video::after {
     left: 490px;
-    top: -185px;
+    top: -155px;
   }
 
   .video-info {
-    padding-left: 1020px;
+    padding: 120px 0 0 1020px;
   }
 
   .video__text_hight-1, .video__text_hight-2 {
@@ -613,6 +619,101 @@ h3 {
   .video__arrow {
     top: 12px;
     left: 163px;
+  }
+
+  .story-1 {
+    width: 100%;
+    background: no-repeat top left url('img/1920/story-1.png');
+  }
+
+  .story-2 {
+    width: 100%;
+    background: no-repeat top center url('img/1920/story-2.png');
+  }
+
+  .story-3 {
+    width: 100%;
+    background: no-repeat top right url('img/1920/story-3.png');
+  }
+
+  .story__info {
+    margin-top: 230px;
+  }
+
+  .story-2__info {
+    margin-left: 60px;
+  }
+
+  .story-3__info {
+    margin-left: 135px;
+  }
+
+  .story__title {
+    font: 600 24px/25px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .story__text {
+    width: 460px;
+    font: 400 19px/22px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .story-3__text {
+    width: 400px;
+  }
+
+  .story__item, .story__date {
+    font: 600 16px/17px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .story__line-arrow {
+    top: 15px;
+    left: 130px;
+  }
+
+  .story__arrow {
+    top: 11px;
+    left: 152px;
+  }
+
+  .story-1__date {
+    margin-left: 250px;
+  }
+
+  .story-2__date, .story-3__date {
+    position: relative;
+    left: 250px;
+  }
+
+  h3 {
+    font: 600 22px/21px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .pictures__first {
+    background: no-repeat top left url('img/1920/story-1.png');
+  }
+
+  .pictures__second {
+
+  }
+
+  .pictures__third {
+
+  }
+
+  .pictures__fourth {
+
+  }
+
+  .pictures__fifth {
+
+  }
+
+  .pictures__sixth {
+
+  }
+
+  .pictures__seventh {
+
   }
 
 }
@@ -697,16 +798,15 @@ h3 {
   }
 
   .story-1 {
-    background: no-repeat top left url(img/1600/story-1.png);
+    background: no-repeat top left url(img/1601/story-1.png);
   }
 
   .story-2 {
-    width: 100%;
-    background: no-repeat top center url(img/1600/story-2.png);
+    background: no-repeat top center url(img/1601/story-2.png);
   }
 
   .story-3 {
-    background: no-repeat top right url(img/1600/story-3.png);
+    background: no-repeat top right url(img/1601/story-3.png);
   }
 
   .story__info {
@@ -714,7 +814,7 @@ h3 {
   }
 
   .story-2__info {
-    margin-left: 73px;
+    width: 400px;
   }
 
   .story-3__info {
@@ -724,15 +824,16 @@ h3 {
   .story__title {
     margin-top: 10px;
     margin-bottom: 9px;
-    font: 600 20px/21px "Gotham Pro", arial, helvetica, sans-serif;
+    font: 600 22px/21px "Gotham Pro", arial, helvetica, sans-serif;
   }
 
   .story-1__text, .story-2__text, .story-3__text {
     width: 370px;
-    font-size: 18px;
+    font: 400 20px/21px "Gotham Pro", arial, helvetica, sans-serif;
   }
 
   .story-2__text {
+    width: 385px;
     margin-bottom: 5px;
   }
 
@@ -754,6 +855,8 @@ h3 {
     margin-left: 30px;
     margin-right: 20px;
   }
+
+
 
 }
 
@@ -1136,6 +1239,7 @@ h3 {
   }
 
   .sneakers-conteiner {
+    margin-bottom: 36px;
     height: 350px;
     display: flex;
     justify-content: space-between;
@@ -1203,7 +1307,7 @@ h3 {
   .video-conteiner {
     position: relative;
     transform: rotate(2.6deg);
-    height: 1575px;
+    height: 675px;
     width: 110%;
     right: 40px;
   }
@@ -1250,6 +1354,86 @@ h3 {
 
   .video__line-arrow, .video__arrow, .video__text_middle {
     display: none;
+  }
+
+  h2 {
+    margin: 45px 0 45px 0;
+    font: 600 30px/31px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .story-1 {
+    background: no-repeat 43px top url('img/768/story-1.png');
+  }
+
+  .story-2 {
+    background: no-repeat 0px top url('img/768/story-2.png');
+  }
+
+  .story-3 {
+    display: none;
+  }
+
+  .story__info {
+    margin-top: 198px;
+  }
+
+  .story-1__info {
+    margin-left: 45px;
+  }
+
+  .story-2__info {
+    margin-right: 56px;
+  }
+
+  .story__title {
+    font-size: 25px;
+  }
+
+  .story__text {
+    width: 330px;
+    margin: 15px 0 32px 0;
+    font: 400 20px/24px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .story-2__text {
+    width: 300px;
+  }
+
+  .story__item {
+    font: 600 20px/11px "Gotham Pro", arial, helvetica, sans-serif;
+  }
+
+  .story__date {
+    font-size: 15px;
+  }
+
+  .story-1__date {
+    margin-left: 110px;
+  }
+
+  .story-2__date {
+    left: 90px;
+  }
+
+  .story__line-arrow {
+    top: 20px;
+    left: 152px;
+    width: 45px;
+    border: 1px solid #000;
+  }
+
+  .story__arrow {
+    width: 8px;
+    height: 8px;
+    top: 14px;
+    left: 189px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+  }
+
+  h3 {
+    margin: 125px 35px 0 0;
+    font: 600 31px/31px "Gotham Pro", arial, helvetica, sans-serif;
   }
 
 }
